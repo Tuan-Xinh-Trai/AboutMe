@@ -173,14 +173,42 @@ body{
 	background-color: #000;
 	color: #fff;
 }
+
+
+#myphoto{
+	display: block;
+	width: 90%;
+	position: relative;
+	background-color:#000; 
+	height: 100
+}
+#myphoto .photo_left{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	float: left;
+	margin-left:20vh;
+	margin-right: 20px;
+}
+#myphoto .photo_left img{
+	margin-bottom: 15px;
+	margin-left: -40vh;
+}
+#myphoto .photo_right{
+	display: flex;
+	flex-direction: column;
+}
 #contact{
 	display: block;
 	width: 90%;
 	position: relative;
 	left: 20vh;
 	background-color:#000; 
+	height: 115vh;
 }
-
+#myphoto .photo_right img{
+	margin-bottom: 15px;
+}
 #contact h3{
 	margin-left:30vh;
 	font-size: 30px;
@@ -228,12 +256,38 @@ body{
 #contact button:hover{
 	opacity: 0.8;
 }
+
+
 #footer{
-	margin-top: 0px;
+	margin-top: -18px;
 	width: 90%;
 	height: 150px;
 	background-color:#000; 
 	display: block;
 	position: relative;
-	left: 19.7vh;
+	left: 20vh;
+}
+#footer ul{
+	margin-left: 20vh;
+	display: flex;
+}
+#footer ul li{
+	list-style: none;
+	text-decoration: none;
+	padding: 35px;
+	padding-top: 50px;
+	padding-bottom: 5px;
+}
+#footer ul li a{
+	font-size: 30px;
+	color: #fff;
+}
+
+#footer ul li a:hover{
+	opacity: 0.7;
+}
+#footer .sign{
+	margin-left: 30vh;
+	color: #fff;
+	text-decoration: underline;
 }
